@@ -18,18 +18,18 @@ func init() {
 
 // Info
 //
-//	@Description: info日志
-//	@param msg 信息
-//	@param fields 日志字段
+// @Description: info日志
+// @param msg 信息
+// @param fields 日志字段
 func Info(msg string, fields ...zap.Field) {
 	logger.Info(msg, fields...)
 }
 
 // Error
 //
-//	@Description: Error日志
-//	@param msg 信息
-//	@param fields 日志字段
+// @Description: Error日志
+// @param msg 信息
+// @param fields 日志字段
 func Error(msg string, fields ...zap.Field) {
 	logger.Error(msg, fields...)
 }
